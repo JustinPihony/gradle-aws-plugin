@@ -16,7 +16,7 @@ buildscript {
 	}
 }
 
-group = "jp.classmethod.aws"
+group = "jp.classmethod.aws.reboot"
 ext.artifactId = "gradle-aws-plugin"
 
 apply plugin: "java"
