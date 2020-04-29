@@ -17,7 +17,7 @@ apply plugin: "jp.classmethod.aws.beanstalk"
 
 // ==== Project settings
 
-group = 'jp.classmethod.aws.gradle.sample'
+group = 'jp.classmethod.aws.reboot.gradle.sample'
 version = '0.1-SNAPSHOT'
 ext.artifactId = '05-beanstalk'
 
