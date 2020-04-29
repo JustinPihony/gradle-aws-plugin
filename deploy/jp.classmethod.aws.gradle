@@ -81,7 +81,7 @@ pluginBundle {
 	tags = ['AWS']
 
 	plugins {
-		awsPlugin {
+		/*awsPlugin {
 			id = 'jp.classmethod.aws'
 			displayName = 'Gradle AWS plugin'
 		}
@@ -113,10 +113,12 @@ pluginBundle {
 			id = 'jp.classmethod.aws.iam'
 			displayName = 'Gradle AWS Identity and Access Management plugin'
 		}
+		*/
 		awsLambdaPlugin {
-			id = 'jp.classmethod.aws.lambda'
+			id = 'jp.classmethod.aws.reboot.lambda'
 			displayName = 'Gradle AWS Lambda plugin'
 		}
+		/*
 		awsRDSPlugin {
 			id = 'jp.classmethod.aws.rds'
 			displayName = 'Gradle Amazon RDS plugin'
@@ -132,7 +134,7 @@ pluginBundle {
 		awsSSMPlugin {
 			id = 'jp.classmethod.aws.ssm'
 			displayName = 'Gradle Amazon SSM plugin'
-		}
+		}*/
 	}
 	mavenCoordinates {
 		groupId = project.group
